@@ -1,0 +1,61 @@
+
+.bottomNav {
+    position: absolute;
+   display: flex;
+   /* justify-content: space-between; */
+   align-items: center;
+    top: 739px;
+    bottom: 0;
+    left: 0;
+    width: 360px;
+    height: 63px;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    border-radius: 30px;
+    opacity: 1;
+  }
+  .active{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63px;
+    background: #38383885 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    filter: blur(0.7px);
+    
+    background: #38383880 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border: 1px solid #000000;
+opacity: 1;
+filter: blur(3px);
+  }
+  .navItem {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    
+    height: 63px;
+    background: #38383885 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    filter: blur(0.7px);
+    border-radius: 25px;
+  }
+  
+  .navItem span {
+    position: relative;
+    margin-top: 5px;
+    bottom: 10px;
+    width: 28px;
+    height: 28px;
+    background: transparent  0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    
+    opacity: 1;
+  }
+  
