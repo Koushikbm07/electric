@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/electric/static/css/main.5acce080.css",
+    "main.js": "/electric/static/js/main.8b2c0b1b.js",
+    "index.html": "/electric/index.html",
+    "main.5acce080.css.map": "/electric/static/css/main.5acce080.css.map",
+    "main.8b2c0b1b.js.map": "/electric/static/js/main.8b2c0b1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5acce080.css",
+    "static/js/main.8b2c0b1b.js"
+  ]
+}
