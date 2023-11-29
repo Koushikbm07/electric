@@ -35,13 +35,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {isLoggedIn ? (
+        {true ? (
           <div>
             
             <Routes>
-              <Route path="/employees" element={<EmpData />} />
-              <Route path="/stats" element={<StatPage />} />
-              <Route path="/" element={<StatPage />} />
+              <Route path="/electric/employees" element={<EmpData />} />
+              <Route path="/electric/stats" element={<StatPage />} />
+              <Route path="/electric/" element={<StatPage />} />
               
             </Routes>   
 
