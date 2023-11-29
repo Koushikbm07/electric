@@ -41,7 +41,7 @@ function App() {
             <Routes>
               <Route path="/electric/employees" element={<EmpData />} />
               <Route path="/electric/stats" element={<StatPage />} />
-              <Route path="electric/" element={<StatPage />} />
+              <Route path="/electric/" element={<StatPage />} />
               
             </Routes>   
 
