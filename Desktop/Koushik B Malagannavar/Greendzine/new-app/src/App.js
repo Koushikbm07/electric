@@ -20,7 +20,7 @@ function App() {
 
     // Example: Check credentials (replace with actual authentication logic)
     if (email === "kartik@gmail.com" && password === "123456") {
-      setIsLoggedIn(!isLoggedIn);
+      setIsLoggedIn(true);
       
       setUser(email);
       // return <Navigate to="/stats"></Navigate>;
