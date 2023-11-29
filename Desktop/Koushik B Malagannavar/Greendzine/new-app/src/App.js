@@ -35,7 +35,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {isLoggedIn && user ? (
+        {true ? (
           <div>
             
             <Routes>
