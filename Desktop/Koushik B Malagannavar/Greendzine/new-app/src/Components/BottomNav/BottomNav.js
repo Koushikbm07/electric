@@ -22,11 +22,11 @@ const BottomNav = () => {
  
   return (
     <div className={styles.bottomNav}>
-      <Link to='/stats' onClick={toggleHomeClassName}  className={` ${homeIsActive ? styles.active : styles.navItem}`}>
+      <Link to='/electric/stats' onClick={toggleHomeClassName}  className={` ${homeIsActive ? styles.active : styles.navItem}`}>
         <FaHome size={"30px"} />
       </Link>
 
-      <Link to='/employees'  onClick={toggleUserClassName}    className={` ${homeIsActive ? styles.active : styles.navItem}`}>
+      <Link to='/electric/employees'  onClick={toggleUserClassName}    className={` ${homeIsActive ? styles.active : styles.navItem}`}>
         <FaUser size={"30px"} />
       </Link>
     </div>

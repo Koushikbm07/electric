@@ -20,7 +20,7 @@ function App() {
 
     // Example: Check credentials (replace with actual authentication logic)
     if (email === "kartik@gmail.com" && password === "123456") {
-      setIsLoggedIn(!isLoggedIn);
+      setIsLoggedIn(true);
       
       setUser(email);
       // return <Navigate to="/stats"></Navigate>;
@@ -35,13 +35,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {isLoggedIn ? (
+        {isLoggedIn && user ? (
           <div>
             
             <Routes>
-              <Route path="/employees" element={<EmpData />} />
-              <Route path="/stats" element={<StatPage />} />
-              <Route path="/" element={<StatPage />} />
+              <Route path="/electric/employees" element={<EmpData />} />
+              <Route path="/electric/stats" element={<StatPage />} />
+              <Route path="electric/" element={<StatPage />} />
               
             </Routes>   
 
